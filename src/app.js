@@ -10,6 +10,7 @@ const forcast = require('./utils/forecast')
 const dirName = path.join(__dirname, '../public')
 const viewPath = path.join(__dirname, '../templates/views')
 const partialPath = path.join(__dirname, '../templates/partials')
+const port = process.env.PORT || 3000
 
 // var requestTime = function(req, res, next) {
 //     req.requestTime = Date.now()
