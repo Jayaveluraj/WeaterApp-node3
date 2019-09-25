@@ -30,8 +30,8 @@ weather.addEventListener('submit', (e) => {
             messageOne.textContent = data.error
             messagetwo.textContent = ''
         }else {
-            messageOne.textContent = data.forcast
-            messagetwo.textContent = data.location
+            messageOne.textContent = data.location 
+            messagetwo.textContent = data.forcast
         }
     })
 })

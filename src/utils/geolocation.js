@@ -11,7 +11,6 @@ request({url, json: true}, (error, {body}) => {
         console.log("error2")
         callback("Unable to find the location try another one.", undefined)
     } else {
-        console.log(body)
         const coordinates = body.features[0].center
         const data = {
             longitude: coordinates[0],
